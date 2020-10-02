@@ -1,10 +1,11 @@
 CC = gcc
 CFLAGS = -Wall -std=c99 -g
-ASFLAGS = -g
+ASFLAGS = -g 
+
+default: op-ex
+	./op-ex
 
 op-ex: op-ex.s
-  $(CC) $(CFLAGS) -o $@ $<
-  ./op-ex
   
 clean:
-  -@rm op-ex
+	-@rm ./op-ex
