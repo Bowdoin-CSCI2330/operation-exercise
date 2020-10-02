@@ -8,4 +8,4 @@ default: op-ex
 op-ex: op-ex.s
   
 clean:
-	-@rm ./op-ex
+	-@rm -f ./op-ex
