@@ -4,6 +4,7 @@
 # Note: All operations should be 64-bit
 # values in rdi, rsi, rdx, rcx, r8, r9
 # stack must be 64-bit aligned
+# leave your result in the %rax register
 #
         .global main
 
