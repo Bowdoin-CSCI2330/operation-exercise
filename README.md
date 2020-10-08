@@ -6,7 +6,7 @@ This is a simple exercise to get you writing x86_64 assembly language. The repos
 2. Modify `op-ex.s` to implement the missing parts (where you see `# TODO:` comments).
 3. Use `make` to compile and run the code and check your results!
 
-Questions:
+Questions (in addition to implementing the missing parts):
 
 1. When you run the program (from `make`) why does it print `make *** [default] Error 15`? Can you fix it?
 
