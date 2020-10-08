@@ -73,7 +73,7 @@ main:
         xor     %rax, %rax              # not using vector parameters
         call    printf                  # printf
 
-        # 5. y - 3x
+        # 5. x - 3y
         mov     x, %rdi                 # x starts in %rdi
         mov     y, %rsi                 # y starts in %rsi
         # TODO: your code here ...
